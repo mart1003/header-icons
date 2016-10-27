@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: 'Merriweather', serif;'
+  font-family: Merriweather, serif;
   line-height: 1.5;
 }
 
@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  margin: 0 0 .7rem;
+  margin: 0;
 }
 
 header {
@@ -42,7 +42,6 @@ ul {
   margin: 0;
   overflow: hidden;
   padding: 0;
-  line-height: 1.5;
 }
 
 nav {
@@ -55,7 +54,6 @@ nav {
 
 li {
   display: inline-block;
-  padding: .4rem 0;
   float: left;
   width: 33.3333%;
   border-top: 1px solid #a63f38;
@@ -67,6 +65,13 @@ li:nth-child(3) {
   border-right: none;
 }
 
-li:hover {
+a {
+  color: #fff;
+  text-decoration: none;
+  padding: .4rem 0;
+  display: block;
+}
+
+a:hover {
   background-color: #a63f38;
 }
